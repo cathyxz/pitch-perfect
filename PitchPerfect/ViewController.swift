@@ -9,8 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var stopRecordingButton: UIButton!
     
     @IBOutlet weak var recordingLabel: UILabel!
+    
+    @IBOutlet weak var recordButton: UIButton!
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
